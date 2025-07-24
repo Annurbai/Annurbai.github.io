@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ff97e5;
+    margin: 0;
+    padding: 0;
+  }
+  .profile-container {
+    max-width: 600px;
+    background: rgb(245, 174, 221);
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  }
+  .profile-header {
+    text-align: center;
+  }
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  h2 {
+    margin: 15px 0 5px;
+  }
+  .bio {
+    color: #555;
+    font-size: 14px;
+  }
+  .contact, .skills, .projects, .cv-button {
+    margin-top: 25px;
+  }
+  .contact a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0366d6;
+  }
+  .skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .skills li {
+    background: #fcdef5;
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-size: 13px;
+  }
+  .projects .project {
+    margin-bottom: 15px;
+  }
+  .projects .project a {
+    font-weight: bold;
+    color: #0366d6;
+    text-decoration: none;
+  }
+  .cv-button a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #0366d6;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  .cv-button a:hover {
+    background: #024e9a;
+  }
+  
