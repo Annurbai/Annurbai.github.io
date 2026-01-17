@@ -15,11 +15,13 @@ body {
   .profile-header {
     text-align: center;
   }
-  .profile-pic {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-  }
+ .profile-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
   h2 {
     margin: 15px 0 5px;
   }

@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>User Profile - Soft Pastel Pink Theme</title>
+  <title>Annur Baiduri | Junior RPA / Automation Developer</title>
+
+  <!-- Bootstrap & Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
   <style>
     :root {
-      --pastel-pink: #f8c7d0; /* Soft pastel pink */
-      --pink-main: #ef97c3;    /* Bright pink */
-      --pink-dark: #e0559f;    /* Darker pink */
-      --pink-light: #eb68ac;   /* Light pink */
+      --pastel-pink: #f8c7d0;
+      --pink-main: #ef97c3;
+      --pink-dark: #e0559f;
     }
 
     body {
@@ -23,36 +25,6 @@
       color: #333;
       border-radius: 20px;
       box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease-in-out;
-    }
-
-    .card-pink:hover {
-      transform: scale(1.05);
-      box-shadow: 0 12px 24px rgba(0,0,0,0.2);
-    }
-
-    .btn-pink {
-      background-color: var(--pink-main);
-      color: white;
-    }
-
-    .btn-pink:hover {
-      background-color: var(--pink-dark);
-      transform: scale(1.05);
-    }
-
-    .badge-pink {
-      background-color: var(--pink-main);
-    }
-
-    .link-pink {
-      color: var(--pink-main);
-      text-decoration: none;
-    }
-
-    .link-pink:hover {
-      text-decoration: underline;
-      color: var(--pink-dark);
     }
 
     .section-title {
@@ -63,102 +35,197 @@
       color: var(--pink-main);
     }
 
-    .list-group-item {
-      background-color: white;
-      border: none;
-    }
-
-    .list-group-item:hover {
-      background-color: #ffe0f0;
-    }
-
     .section-divider {
       height: 2px;
       background-color: var(--pink-main);
-      margin: 20px 0;
+      margin: 25px 0;
     }
 
-    .icon {
-      color: var(--pink-main);
-      margin-right: 10px;
+    .badge-pink {
+      background-color: var(--pink-main);
+    }
+
+    .btn-pink {
+      background-color: var(--pink-main);
+      color: white;
+    }
+
+    .btn-pink:hover {
+      background-color: var(--pink-dark);
+    }
+
+    /* ===== PROJECT & HOBBY CARD ANIMATION ===== */
+    .project-card {
+      transition: all 0.35s ease;
+      border-radius: 15px;
+      cursor: pointer;
+    }
+
+    .project-card:hover {
+      transform: translateY(-8px) scale(1.02);
+      box-shadow: 0 14px 30px rgba(239, 151, 195, 0.45);
+    }
+
+    .fade-in {
+      animation: fadeUp 0.8s ease forwards;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
+
 <body>
-  <div class="container mt-5">
-    <div class="card card-pink mx-auto p-4" style="max-width: 1000px;">
-      <div class="text-center">
-        <img src="resources/profilepicture.jpg" class="rounded-circle mb-1" alt="Profile Picture">
-        <h2>Annur Baiduri Binti Amat Jamrin</h2>
-        <p class="text-muted">System Analyst | Passionate about Data-Driven Solutions and Process Automation</p>
-      </div>
+<div class="container mt-5">
+  <div class="card card-pink mx-auto p-4 fade-in" style="max-width: 1000px;">
 
-      <div class="text-center mb-3">
-        <a href="annurbaiduriwork@gmail.com" class="btn btn-outline-secondary btn-sm me-2"><i class="fas fa-envelope"></i> Email</a>
-        <a href="https://linkedin.com/in/annurbaiduri" target="_blank" class="btn btn-outline-secondary btn-sm me-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        <a href="https://github.com/Annurbai" target="_blank" class="btn btn-outline-secondary btn-sm"><i class="fab fa-github"></i> GitHub</a>
-      </div>
-
-      <h5 class="section-title">Skills</h5>
-      <div class="mb-3">
-        <span class="badge badge-pink text-light me-1 mb-1">HTML</span>
-        <span class="badge badge-pink text-light me-1 mb-1">CSS</span>
-        <span class="badge badge-pink text-light me-1 mb-1">JavaScript</span>
-        <span class="badge badge-pink text-light me-1 mb-1">Java</span>
-        <span class="badge badge-pink text-light me-1 mb-1">Python</span>
-        <span class="badge badge-pink text-light me-1 mb-1">C#</span>
-      </div>
-
-      <div class="section-divider"></div>
-
-      <h5 class="section-title">Experience</h5>
-      <ul class="list-group mb-3">
-        <li class="list-group-item">
-          <strong>Frontend Developer – Creative Studio</strong><br>
-          <small>Jan 2022 – Present</small><br>
-          <p>Built modern, responsive websites using React and Bootstrap. Worked on interactive UI components and optimized site performance.</p>
-        </li>
-        <li class="list-group-item">
-          <strong>Web Intern – TechCorp</strong><br>
-          <small>Jun 2021 – Dec 2021</small><br>
-          <p>Assisted in building landing pages and user dashboards. Improved website responsiveness and accessibility.</p>
-        </li>
-      </ul>
-
-      <div class="section-divider"></div>
-
-      <h5 class="section-title">Education</h5>
-      <ul class="list-group mb-3">
-        <li class="list-group-item">
-          <strong>Bachelor in Information Technology</strong><br>
-          <small>University Technology Mara(UiTM) – 2021 to 2025</small>
-        </li>
-        <li class="list-group-item">
-          <strong>Diploma in Science</strong><br>
-          <small>University Technology Mara(UiTM) – 2018 to 2021</small>
-        </li>
-      </ul>
-
-      <div class="section-divider"></div>
-
-      <h5 class="section-title">Projects</h5>
-      <ul class="list-group mb-3">
-        <li class="list-group-item">
-          <strong><a href="https://example.com/project1" class="link-pink" target="_blank">Portfolio Website</a></strong><br>
-          <p>A personal site to showcase my work and skills.</p>
-        </li>
-        <li class="list-group-item">
-          <strong><a href="https://example.com/project2" class="link-pink" target="_blank">Task Tracker App</a></strong><br>
-          <p>A full-stack app using React and Node.js to manage tasks and deadlines.</p>
-        </li>
-      </ul>
-
-      <div class="text-center">
-        <a href="https://example.com/JaneDoe_CV.pdf" class="btn btn-pink" download><i class="fas fa-download"></i> Download CV</a>
-      </div>
+    <!-- PROFILE -->
+    <div class="text-center">
+      <img src="resources/profilepicture.jpeg" class="rounded-circle mb-2" width="200 px"="Profile Picture">
+      <h2>Annur Baiduri</h2>
+      <p class="text-muted">
+        Junior RPA / Automation Developer<br>
+        Python • Selenium • n8n • SQL
+      </p>
     </div>
-  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- CONTACT -->
+    <div class="text-center mb-3">
+      <a href="mailto:annurbaiduriwork@gmail.com" class="btn btn-outline-secondary btn-sm me-2">
+        <i class="fas fa-envelope"></i> Email
+      </a>
+      <a href="https://linkedin.com/in/annurbaiduri" target="_blank" class="btn btn-outline-secondary btn-sm me-2">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+      <a href="https://github.com/Annurbai" target="_blank" class="btn btn-outline-secondary btn-sm">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+
+    <!-- ABOUT -->
+    <h5 class="section-title">About Me</h5>
+    <p>
+      Junior RPA / Automation Developer with hands-on experience in Python and Selenium automation,
+      n8n workflow orchestration, and SQL-based backend systems. Experienced in automating user access
+      reviews, enhancing enterprise systems, and optimizing processes to reduce manual effort and
+      improve efficiency.
+    </p>
+
+    <div class="section-divider"></div>
+
+    <!-- SKILLS -->
+    <h5 class="section-title">Technical Skills</h5>
+    <div class="mb-3">
+      <span class="badge badge-pink text-light me-1 mb-1">Python</span>
+      <span class="badge badge-pink text-light me-1 mb-1">Selenium</span>
+      <span class="badge badge-pink text-light me-1 mb-1">n8n</span>
+      <span class="badge badge-pink text-light me-1 mb-1">SQL</span>
+      <span class="badge badge-pink text-light me-1 mb-1">VB.NET</span>
+      <span class="badge badge-pink text-light me-1 mb-1">C#</span>
+      <span class="badge badge-pink text-light me-1 mb-1">AWS Textract</span>
+      <span class="badge badge-pink text-light me-1 mb-1">AWS S3</span>
+      <span class="badge badge-pink text-light me-1 mb-1">AWS Athena</span>
+      <span class="badge badge-pink text-light me-1 mb-1">Git</span>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- PROJECTS -->
+    <h5 class="section-title">Projects</h5>
+    <div class="row g-4 fade-in">
+
+      <div class="col-md-4">
+        <div class="card project-card p-3 h-100">
+          <h6>User ID Review Automation</h6>
+          <p class="small">
+            Automated user access validation using Python and n8n workflows to reduce manual effort
+            and improve turnaround time.
+          </p>
+          <span class="badge badge-pink text-light">Python</span>
+          <span class="badge badge-pink text-light">n8n</span>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card project-card p-3 h-100">
+          <h6>OCR Automation (AWS)</h6>
+          <p class="small">
+            Automated document extraction using AWS Textract with structured querying via AWS Athena.
+          </p>
+          <span class="badge badge-pink text-light">AWS</span>
+          <span class="badge badge-pink text-light">Python</span>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card project-card p-3 h-100">
+          <h6>Selenium Web Automation</h6>
+          <p class="small">
+            Automated repetitive web-based testing and validation tasks using Selenium WebDriver.
+          </p>
+          <span class="badge badge-pink text-light">Selenium</span>
+          <span class="badge badge-pink text-light">Automation</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- HOBBIES -->
+    <h5 class="section-title">Hobbies & Interests</h5>
+    <div class="row g-4 fade-in">
+
+      <div class="col-md-3">
+        <div class="card project-card p-3 h-100 text-center">
+          <i class="fas fa-robot fa-2x mb-2" style="color: var(--pink-main);"></i>
+          <p class="small mb-0">Building automation side projects</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card project-card p-3 h-100 text-center">
+          <i class="fas fa-cloud fa-2x mb-2" style="color: var(--pink-main);"></i>
+          <p class="small mb-0">Learning cloud & workflow automation</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card project-card p-3 h-100 text-center">
+          <i class="fas fa-palette fa-2x mb-2" style="color: var(--pink-main);"></i>
+          <p class="small mb-0">Designing clean UI for personal projects</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card project-card p-3 h-100 text-center">
+          <i class="fas fa-lightbulb fa-2x mb-2" style="color: var(--pink-main);"></i>
+          <p class="small mb-0">Exploring productivity & process optimization</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- CV -->
+    <div class="text-center">
+      <a href="resources/AnnurBaiduri_Resume.pdf" class="btn btn-pink" download>
+        <i class="fas fa-download"></i> Download Resume
+      </a>
+    </div>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
