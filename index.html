@@ -2,230 +2,276 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Annur Baiduri | Junior RPA / Automation Developer</title>
+  <title>Annur Baiduri | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Bootstrap & Icons -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
-  <style>
-    :root {
-      --pastel-pink: #f8c7d0;
-      --pink-main: #ef97c3;
-      --pink-dark: #e0559f;
-    }
-
-    body {
-      background-color: var(--pastel-pink);
-      font-family: 'Arial', sans-serif;
-    }
-
-    .card-pink {
-      background-color: #ffffff;
-      color: #333;
-      border-radius: 20px;
-      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-    }
-
-    .section-title {
-      margin-top: 30px;
-      margin-bottom: 15px;
-      font-weight: bold;
-      font-size: 1.3rem;
-      color: var(--pink-main);
-    }
-
-    .section-divider {
-      height: 2px;
-      background-color: var(--pink-main);
-      margin: 25px 0;
-    }
-
-    .badge-pink {
-      background-color: var(--pink-main);
-    }
-
-    .btn-pink {
-      background-color: var(--pink-main);
-      color: white;
-    }
-
-    .btn-pink:hover {
-      background-color: var(--pink-dark);
-    }
-
-    /* ===== PROJECT & HOBBY CARD ANIMATION ===== */
-    .project-card {
-      transition: all 0.35s ease;
-      border-radius: 15px;
-      cursor: pointer;
-    }
-
-    .project-card:hover {
-      transform: translateY(-8px) scale(1.02);
-      box-shadow: 0 14px 30px rgba(239, 151, 195, 0.45);
-    }
-
-    .fade-in {
-      animation: fadeUp 0.8s ease forwards;
-    }
-
-    @keyframes fadeUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="resources/style.css">
 </head>
-
 <body>
-<div class="container mt-5">
-  <div class="card card-pink mx-auto p-4 fade-in" style="max-width: 1000px;">
 
-    <!-- PROFILE -->
-    <div class="text-center">
-      <img src="resources/profilepicture.jpeg" class="rounded-circle mb-2" width="200 px"="Profile Picture">
-      <h2>Annur Baiduri</h2>
-      <p class="text-muted">
-        Junior RPA / Automation Developer<br>
-        Python • Selenium • n8n • SQL
-      </p>
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">PORTFOLIO</div>
+  <div class="nav-links">
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#project">Project</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="about">
+
+  <div class="hero-left">
+    <p class="hello">Hello !!!</p>
+    <h1>I'm Annur<br>Baiduri</h1>
+
+    <div class="role">
+        <span id="typing"></span>
     </div>
 
-    <!-- CONTACT -->
-    <div class="text-center mb-3">
-      <a href="mailto:annurbaiduriwork@gmail.com" class="btn btn-outline-secondary btn-sm me-2">
-        <i class="fas fa-envelope"></i> Email
-      </a>
-      <a href="https://linkedin.com/in/annurbaiduri" target="_blank" class="btn btn-outline-secondary btn-sm me-2">
-        <i class="fab fa-linkedin"></i> LinkedIn
-      </a>
-      <a href="https://github.com/Annurbai" target="_blank" class="btn btn-outline-secondary btn-sm">
-        <i class="fab fa-github"></i> GitHub
-      </a>
-    </div>
+    <p class="description">
+      Junior Software Engineer with experience in Python application development, system integration, workflow automation using n8n, and SQL databases. 
+      Familiar with API integrations and backend development concepts. 
+      Passionate about building efficient systems and continuously improving technical skills in a team-oriented environment.
+    </p>
+  </div>
 
-    <!-- ABOUT -->
-    <h5 class="section-title">About Me</h5>
-    <p>
-      Junior RPA / Automation Developer with hands-on experience in Python and Selenium automation,
-      n8n workflow orchestration, and SQL-based backend systems. Experienced in automating user access
-      reviews, enhancing enterprise systems, and optimizing processes to reduce manual effort and
-      improve efficiency.
+  <div class="hero-right">
+    <img src="resources/profilepicture.png" alt="Annur">
+  </div>
+
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section">
+  <h2>Education</h2>
+
+  <div class="edu-item">
+    <h3>Bachelor of Information Technology</h3>
+    <p class="edu-school">
+      Universiti Teknologi MARA | 2021 – 2025
+    </p>
+    <p class="edu-activities">
+      Activities: ITeC Club (2021/2022), IGN Ambassador (2021), 
+      Co-Lead Google Developer Student Club UiTM Shah Alam (2023)
+    </p>
+  </div>
+
+  <div class="edu-item">
+    <h3>Diploma in Science</h3>
+    <p class="edu-school">
+      Universiti Teknologi MARA | 2018 – 2021
+    </p>
+    <p class="edu-activities">
+      Activities: Secretary, Jawatankuasa Sukan Pelajar UiTM Sabah (2019/2020)
+    </p>
+  </div>
+
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <h2>Professional Experience</h2>
+
+  <div class="exp-item">
+    <h3>System Analyst (Automation & RPA Focus)</h3>
+    <p class="exp-company">
+      Sony EMCS Malaysia | Mar 2025 – Present | Bandar Baru Bangi
     </p>
 
-    <div class="section-divider"></div>
+    <p class="exp-summary">
+      Managed full SDLC lifecycle including requirements analysis, solution design, backend development, 
+      database optimization, RDD/UAT execution, deployment, and post-implementation support. 
+      Resolved cross-regional SMILE system issues in collaboration with Sony India.
+    </p>
 
-    <!-- SKILLS -->
-    <h5 class="section-title">Technical Skills</h5>
-    <div class="mb-3">
-      <span class="badge badge-pink text-light me-1 mb-1">Python</span>
-      <span class="badge badge-pink text-light me-1 mb-1">Selenium</span>
-      <span class="badge badge-pink text-light me-1 mb-1">n8n</span>
-      <span class="badge badge-pink text-light me-1 mb-1">SQL</span>
-      <span class="badge badge-pink text-light me-1 mb-1">VB.NET</span>
-      <span class="badge badge-pink text-light me-1 mb-1">C#</span>
-      <span class="badge badge-pink text-light me-1 mb-1">AWS Textract</span>
-      <span class="badge badge-pink text-light me-1 mb-1">AWS S3</span>
-      <span class="badge badge-pink text-light me-1 mb-1">AWS Athena</span>
-      <span class="badge badge-pink text-light me-1 mb-1">Git</span>
+    <h4>Key Projects</h4>
+    <ul>
+      <li>
+        <strong>PRINCESS Web Enhancement</strong> – Improved reporting efficiency by 20% through system optimization.
+      </li>
+      <li>
+        <strong>PRINCESS PDA Upgrade</strong> – Migrated legacy PDA to web platform (Ionic, VB.NET), reducing on-premises dependency by 30%.
+      </li>
+      <li>
+        <strong>User ID Review Automation</strong> – Implemented automated access review workflows using Python and n8n, 
+        reducing manual effort by 40%, shortening turnaround time by 35%, and improving audit compliance accuracy.
+      </li>
+      <li>
+        <strong>Work Order Automation</strong> – Developed end-to-end system (Python backend, HTML/JS frontend) 
+        integrating n8n automation and Telegram Bot API, cutting manual effort by 55% and accelerating response time by 45%.
+      </li>
+    </ul>
+  </div>
+
+  <div class="exp-item">
+    <h3>Internship</h3>
+    <p class="exp-company">
+      CelcomDigi | Sep 2024 – Jan 2025 | Subang Jaya
+    </p>
+
+    <ul>
+      <li>
+        Designed and supported automation workflows for AA and EMF-related processes, improving data accuracy by 30% and operational efficiency by 25%.
+      </li>
+      <li>
+        Developed OCR-based automation using AWS Textract, S3, Python, and configured AWS Athena for reporting and data analysis.
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+<!-- PROJECT -->
+<section id="project" class="section">
+  <h2>Key Projects</h2>
+
+  <!-- PROJECT 1 -->
+  <div class="project-item">
+    <h3>User ID Review Automation</h3>
+    <p class="project-tech">
+      Python • n8n • Access Governance
+    </p>
+    <p>
+      Designed and implemented automated user access review workflows to replace 
+      manual validation processes. Reduced manual effort by 
+      <span class="highlight">40%</span>, shortened turnaround time by 
+      <span class="highlight">35%</span>, and improved audit compliance accuracy.
+    </p>
+  </div>
+
+  <!-- PROJECT 2 -->
+  <div class="project-item">
+    <h3>Work Order Automation System</h3>
+    <p class="project-tech">
+      Python Backend • HTML/CSS/JS • n8n • Telegram Bot API
+    </p>
+    <p>
+      Developed end-to-end work order system integrating backend automation and 
+      real-time notification workflows. Reduced manual processing by 
+      <span class="highlight">55%</span> and accelerated response time by 
+      <span class="highlight">45%</span>.
+    </p>
+  </div>
+
+  <!-- PROJECT 3 -->
+  <div class="project-item">
+    <h3>OCR Automation Pipeline</h3>
+    <p class="project-tech">
+      AWS Textract • S3 • Python • AWS Athena
+    </p>
+    <p>
+      Built intelligent document extraction pipeline using AWS Textract and 
+      structured reporting via AWS Athena. Improved data extraction efficiency 
+      and minimized manual data entry errors.
+    </p>
+  </div>
+
+  <!-- PROJECT 4 -->
+  <div class="project-item">
+    <h3>PRINCESS PDA Upgrade</h3>
+    <p class="project-tech">
+      Ionic • VB.NET • System Migration
+    </p>
+    <p>
+      Migrated legacy PDA-based system to web platform architecture, reducing 
+      on-premises dependency by <span class="highlight">30%</span> and 
+      enhancing reporting scalability.
+    </p>
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact</h2>
+
+  <div class="contact-container">
+    <p>Interested in collaborating or discussing opportunities?</p>
+
+    <div class="contact-links">
+      <a href="mailto:annurbaiduriwork@gmail.com">Email</a>
+      <a href="https://my.linkedin.com/in/annurbaiduri">LinkedIn</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- TECHNICAL SKILLS -->
+<section id="skills" class="section">
+  <h2>Technical Skills</h2>
+
+  <div class="skills-container">
+
+    <div class="skill-group">
+      <h3>Programming & Scripting</h3>
+      <p>Python, VB.NET, JavaScript, SQL</p>
     </div>
 
-    <div class="section-divider"></div>
-
-    <!-- PROJECTS -->
-    <h5 class="section-title">Projects</h5>
-    <div class="row g-4 fade-in">
-
-      <div class="col-md-4">
-        <div class="card project-card p-3 h-100">
-          <h6>User ID Review Automation</h6>
-          <p class="small">
-            Automated user access validation using Python and n8n workflows to reduce manual effort
-            and improve turnaround time.
-          </p>
-          <span class="badge badge-pink text-light">Python</span>
-          <span class="badge badge-pink text-light">n8n</span>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card project-card p-3 h-100">
-          <h6>OCR Automation (AWS)</h6>
-          <p class="small">
-            Automated document extraction using AWS Textract with structured querying via AWS Athena.
-          </p>
-          <span class="badge badge-pink text-light">AWS</span>
-          <span class="badge badge-pink text-light">Python</span>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card project-card p-3 h-100">
-          <h6>Selenium Web Automation</h6>
-          <p class="small">
-            Automated repetitive web-based testing and validation tasks using Selenium WebDriver.
-          </p>
-          <span class="badge badge-pink text-light">Selenium</span>
-          <span class="badge badge-pink text-light">Automation</span>
-        </div>
-      </div>
-
+    <div class="skill-group">
+      <h3>Automation & RPA</h3>
+      <p>Selenium, n8n, Workflow Automation, Telegram Bot API</p>
     </div>
 
-    <div class="section-divider"></div>
-
-    <!-- HOBBIES -->
-    <h5 class="section-title">Hobbies & Interests</h5>
-    <div class="row g-4 fade-in">
-
-      <div class="col-md-3">
-        <div class="card project-card p-3 h-100 text-center">
-          <i class="fas fa-robot fa-2x mb-2" style="color: var(--pink-main);"></i>
-          <p class="small mb-0">Building automation side projects</p>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card project-card p-3 h-100 text-center">
-          <i class="fas fa-cloud fa-2x mb-2" style="color: var(--pink-main);"></i>
-          <p class="small mb-0">Learning cloud & workflow automation</p>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card project-card p-3 h-100 text-center">
-          <i class="fas fa-palette fa-2x mb-2" style="color: var(--pink-main);"></i>
-          <p class="small mb-0">Designing clean UI for personal projects</p>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card project-card p-3 h-100 text-center">
-          <i class="fas fa-lightbulb fa-2x mb-2" style="color: var(--pink-main);"></i>
-          <p class="small mb-0">Exploring productivity & process optimization</p>
-        </div>
-      </div>
-
+    <div class="skill-group">
+      <h3>Cloud & Data</h3>
+      <p>AWS Textract, AWS S3, AWS Athena</p>
     </div>
 
-    <div class="section-divider"></div>
-
-    <!-- CV -->
-    <div class="text-center">
-      <a href="resources/AnnurBaiduri_Resume.pdf" class="btn btn-pink" download>
-        <i class="fas fa-download"></i> Download Resume
-      </a>
+    <div class="skill-group">
+      <h3>System & Development</h3>
+      <p>SDLC Lifecycle, UAT, RDD Documentation, Backend Development, Database Optimization</p>
     </div>
 
   </div>
-</div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</section>
+
+<script>
+  // ACTIVE NAV HIGHLIGHT
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".nav-links a");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 120;
+      if (pageYOffset >= sectionTop) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === "#" + current) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+  var typed = new Typed("#typing", {
+    strings: [
+      "System Analyst",
+      "Automation Engineer",
+      "RPA Developer",
+      "Software Engineer"
+    ],
+    typeSpeed: 60,
+    backSpeed: 40,
+    backDelay: 1500,
+    loop: true
+  });
+</script>
+
 </body>
 </html>
